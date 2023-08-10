@@ -6,5 +6,9 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'github_demo';
+  count: number = 0;
+
+  addOne() {
+    this.count++;
+  }
 }
