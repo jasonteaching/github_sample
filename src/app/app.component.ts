@@ -11,4 +11,8 @@ export class AppComponent {
   addOne() {
     this.count++;
   }
+
+  subtractOne() {
+    this.count--;
+  }
 }
